@@ -1,0 +1,18 @@
+.btn-success {
+  background: #00a44e;
+}
+.btn-warning {
+  background: #ff2060;
+}
+.btn-primary {
+  background: #089c99;
+}
+
+.btn {
+  width: 5rem;
+  height: 1.7rem;
+  margin: 0 0.2rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

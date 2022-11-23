@@ -1,0 +1,29 @@
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.modal-box-delete {
+  width: 40%;
+  background-color: white;
+  height: 8rem;
+  margin: 0.5rem auto;
+  position: absolute;
+  text-align: center;
+  padding: 35px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: show;
+  animation-duration: 0.8s;
+}
+.modal-box-delete h3 {
+  color: #218dfd;
+}
+.btn-group-delete {
+  margin-top: 1rem;
+}

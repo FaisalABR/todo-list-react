@@ -1,0 +1,43 @@
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.modal-box {
+  width: 40%;
+  background-color: white;
+  height: 10rem;
+  margin: 0.5rem auto;
+  position: absolute;
+  text-align: center;
+  padding: 35px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: show;
+  animation-duration: 0.8s;
+}
+
+.modal-box input {
+  width: 100%;
+  margin: 1rem 0;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.314);
+}
+
+.modal-box h3 {
+  color: #218dfd;
+}
+
+@keyframes show {
+  from {
+    top: -10%;
+  }
+  to {
+    transform: translate(-50%, -50%);
+  }
+}
